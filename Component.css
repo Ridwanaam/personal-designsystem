@@ -1,0 +1,7 @@
+button{
+    background-color: var(--global-aam-global-color-primary-azure-base);
+    color:var(--global-aam-thema-color-content-content-white) ;
+    border:none ;
+font-size: var(--size-font-medium);
+padding: 4px 16px 4px 16px;
+}

@@ -1,0 +1,91 @@
+/**
+ * Do not edit directly
+ * Generated on Wed, 27 Sep 2023 06:37:16 GMT
+ */
+
+:root {
+  --color-base-gray-light: #cccccc;
+  --color-base-gray-medium: #999999;
+  --color-base-gray-dark: #111111;
+  --color-base-red: #ff0000;
+  --color-base-green: #00ff00;
+  --color-font-base: #ff0000;
+  --color-font-secondary: #00ff00;
+  --color-font-tertiary: #cccccc;
+  --size-font-small: 0.75rem; /* the small size of the font */
+  --size-font-medium: 1rem; /* the medium size of the font */
+  --size-font-large: 2rem; /* the large size of the font */
+  --size-font-base: 1rem; /* the base size of the font */
+  --global-linear-putar-ayat: linear-gradient(241deg, #283663 0%, #6a769f 100%);
+  --global-linear2-putar-ayat: linear-gradient(90deg, #ffc80b 0%, #e89318 100%);
+  --global-aam-global-color-primary-azure-darker: #063c98;
+  --global-aam-global-color-primary-azure-dark: #075edb;
+  --global-aam-global-color-primary-azure-base: #b20aff;
+  --global-aam-global-color-primary-azure-light: #47a3ff;
+  --global-aam-global-color-primary-azure-lighter: #9cd7ff;
+  --global-aam-global-color-secondary-green-pigment-darker: #004f46;
+  --global-aam-global-color-secondary-green-pigment-dark: #00803d;
+  --global-aam-global-color-secondary-green-pigment-base: #00a650;
+  --global-aam-global-color-secondary-green-pigment-light: #00e66f;
+  --global-aam-global-color-secondary-green-pigment-lighter: #99ffca;
+  --global-aam-global-color-secondary-raspberry-darker: #7a005e;
+  --global-aam-global-color-secondary-raspberry-dark: #b70069;
+  --global-aam-global-color-secondary-raspberry-base: #ff0060;
+  --global-aam-global-color-secondary-raspberry-light: #ff80ae;
+  --global-aam-global-color-secondary-raspberry-lighter: #ffccdf;
+  --global-aam-global-color-secondary-golden-darker: #7a5e00;
+  --global-aam-global-color-secondary-golden-dark: #dbb400;
+  --global-aam-global-color-secondary-golden-base: #ffd600;
+  --global-aam-global-color-secondary-golden-light: #ffe766;
+  --global-aam-global-color-secondary-golden-lighter: #ffef99;
+  --global-aam-global-color-secondary-steel-darker: #143b53;
+  --global-aam-global-color-secondary-steel-dark: #286d8c;
+  --global-aam-global-color-secondary-steel-base: #388aa3;
+  --global-aam-global-color-secondary-steel-light: #65b7c7;
+  --global-aam-global-color-secondary-steel-lighter: #89dbe3;
+  --global-aam-global-color-secondary-ultramarine-darker: #172393;
+  --global-aam-global-color-secondary-ultramarine-dark: #364bdb;
+  --global-aam-global-color-secondary-ultramarine-base: #4a64ff;
+  --global-aam-global-color-secondary-ultramarine-light: #778cff;
+  --global-aam-global-color-secondary-ultramarine-lighter: #dae2ff;
+  --global-aam-global-color-success-success-darker: #004e54;
+  --global-aam-global-color-success-success-dark: #009775;
+  --global-aam-global-color-success-success-base: #00b077;
+  --global-aam-global-color-success-success-light: #33cf8d;
+  --global-aam-global-color-success-success-lighter: #5ce79f;
+  --global-aam-global-color-info-info-darker: #0b2d7a;
+  --global-aam-global-color-info-info-dark: #2a7cdb;
+  --global-aam-global-color-info-info-base: #3aa0ff;
+  --global-aam-global-color-info-info-light: #6bbfff;
+  --global-aam-global-color-info-info-lighter: #88d2ff;
+  --global-aam-global-color-danger-danger-darker: #6f0722;
+  --global-aam-global-color-danger-danger-dark: #c81b1d;
+  --global-aam-global-color-danger-danger-base: #e93426;
+  --global-aam-global-color-danger-danger-light: #f1715a;
+  --global-aam-global-color-danger-danger-lighter: #f8997b;
+  --global-aam-global-color-warning-warning-darker: #74430f;
+  --global-aam-global-color-warning-warning-dark: #b57b23;
+  --global-aam-global-color-warning-warning-base: #fcc047;
+  --global-aam-global-color-warning-warning-light: #ffce6b;
+  --global-aam-global-color-warning-warning-lighter: #fee190;
+  --global-aam-global-color-neutral-neutral-darker: #070707;
+  --global-aam-global-color-neutral-neutral-dark: #404040;
+  --global-aam-global-color-neutral-neutral-base: #7a7a7a;
+  --global-aam-global-color-neutral-neutral-light: #f2f2f2;
+  --global-aam-global-color-neutral-neutral-lighter: #f5f8ff;
+  --global-aam-global-color-neutral-neutral-lightess: #f4f4fc;
+  --global-aam-global-color-neutral-neutral-white: #ffffff;
+  --global-aam-thema-color-background-background-white: #ffffff;
+  --global-aam-thema-color-background-background-primary: #eceff3;
+  --global-aam-thema-color-background-background-secondary: #f5f8ff;
+  --global-aam-thema-color-border-border1: #f2f2f2;
+  --global-aam-thema-color-border-border2: #f5f8ff;
+  --global-aam-thema-color-border-border-error: #e93426;
+  --global-aam-thema-color-border-border-active: #0a7aff;
+  --global-aam-thema-color-content-content-white: #ffffff;
+  --global-aam-thema-color-content-content-primary: #070707;
+  --global-aam-thema-color-content-content-secondary: #404040;
+  --global-aam-thema-color-content-content-tertiary: #7a7a7a;
+  --global-aam-thema-color-devider-devider1: #f2f2f2;
+  --global-aam-thema-color-devider-devider2: #f5f8ff;
+}
